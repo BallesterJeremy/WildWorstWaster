@@ -1,5 +1,6 @@
 import "./App.css";
+import Acceuil from "@pages/Acceuil";
 
 export default function App() {
-  return <h1>Hello Vite React App</h1>;
+  return <Acceuil />;
 }
