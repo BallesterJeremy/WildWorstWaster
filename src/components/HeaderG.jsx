@@ -1,25 +1,28 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
 const HeaderG = () => {
-  <div>
-    <ul>
-      <Link to="/HomeGreta">
-        <li>
-          <p>Home</p>
-        </li>
-      </Link>
-      <Link to="/ApiG">
-        <li>
-          <p>Api</p>
-        </li>
-      </Link>
-      <Link to="/ContactG">
-        <li>
-          <p>Contact</p>
-        </li>
-      </Link>
-    </ul>
-  </div>;
+  return (
+    <div>
+      <ul>
+        <Link to="/HomeGreta">
+          <li>
+            <p>Home</p>
+          </li>
+        </Link>
+        <Link to="/ApiGreta">
+          <li>
+            <p>Api</p>
+          </li>
+        </Link>
+        <Link to="/ContactGreta">
+          <li>
+            <p>Contact</p>
+          </li>
+        </Link>
+      </ul>
+    </div>
+  );
 };
 
 export default HeaderG;
