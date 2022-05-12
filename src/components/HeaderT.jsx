@@ -1,25 +1,27 @@
 import { Link } from "react-router-dom";
 
 const HeaderT = () => {
-  <div>
-    <ul>
-      <Link to="/HomeT">
-        <li>
-          <p>Home</p>
-        </li>
-      </Link>
-      <Link to="/ApiT">
-        <li>
-          <p>Api</p>
-        </li>
-      </Link>
-      <Link to="/ContactT">
-        <li>
-          <p>Contact</p>
-        </li>
-      </Link>
-    </ul>
-  </div>;
+  return (
+    <div>
+      <ul>
+        <Link to="/HomeTrump">
+          <li>
+            <p>Home</p>
+          </li>
+        </Link>
+        <Link to="/ApiTrump">
+          <li>
+            <p>Api</p>
+          </li>
+        </Link>
+        <Link to="/ContactTrump">
+          <li>
+            <p>Contact</p>
+          </li>
+        </Link>
+      </ul>
+    </div>
+  );
 };
 
 export default HeaderT;
