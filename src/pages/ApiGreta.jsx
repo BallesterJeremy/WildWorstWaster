@@ -1,7 +1,13 @@
 import React from "react";
+import HeaderG from "../components/HeaderG";
+// import Appel from "../componants/Appel";
 
 const ApiGreta = () => {
-  return <div></div>;
+  return (
+    <div>
+      <HeaderG />
+    </div>
+  );
 };
 
 export default ApiGreta;

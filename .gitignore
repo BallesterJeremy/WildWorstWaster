@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+node_modules
+=======
 # Logs
 logs
 *.log
@@ -27,3 +30,4 @@ dist-ssr
 #PackageVersioning
 pnpm-lock.yaml
 package-lock.json
+>>>>>>> 9e77a3566a90d0e529cc237b9d5f2ea67b59fbab
