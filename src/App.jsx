@@ -1,7 +1,11 @@
 import HeaderG from "@components/HeaderG";
 import "./App.css";
-import Acceuil from "@pages/Acceuil";
+import Main from "@components/Main";
 
 export default function App() {
-  return <Acceuil />;
+  return (
+    <main>
+      <Main />
+    </main>
+  );
 }
