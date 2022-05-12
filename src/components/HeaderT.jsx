@@ -1,3 +1,5 @@
+import "../components/headerG.css";
+
 const { Link } = require("react-router-dom");
 
 const HeaderT = () => {
