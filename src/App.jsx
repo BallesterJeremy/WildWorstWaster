@@ -1,3 +1,4 @@
+import HeaderG from "@components/HeaderG";
 import "./App.css";
 
 export default function App() {
