@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-import "../components/headerG.css";
-
-const { Link } = require("react-router-dom");
-=======
 import { Link } from "react-router-dom";
->>>>>>> dev
 
 const HeaderT = () => {
   return (
