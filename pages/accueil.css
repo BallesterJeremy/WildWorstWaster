@@ -1,0 +1,16 @@
+.body {
+  height: 100%;
+  background: #93e453;
+  box-shadow: 0 8px 1px rgba(255, 255, 255, 0.1),
+    0 16px 1px rgba(255, 255, 255, 0.05);
+}
+#background {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #cc923c;
+  box-shadow: 0 8px 1px rgba(255, 255, 255, 0.1),
+    0 16px 1px rgba(255, 255, 255, 0.05);
+}
