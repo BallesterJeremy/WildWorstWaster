@@ -6,11 +6,12 @@ const Appel = () => {
   const [data, setData] = useState([]);
   const [selectedRadio, setSelectedRadio] = useState("co");
   const radios = ["co", "h", "no2", "o3", "p", "pm10", "pm25", "so2", "t", "w"];
+  const [searchValue, setSearchValue] = useState("london");
 
   useEffect(() => {
     axios
       .get(
-        "https://api.waqi.info/feed/London/?token=a9cc6c8ba6e8494a0ce4721a5e4788476a00b97a"
+        `https://api.waqi.info/feed/beijing/?token=25710564696528c24737436c8c87497a24008a84=${searchValue}`
       )
       .then((res) => {
         let items = res.data.data;
@@ -18,7 +19,6 @@ const Appel = () => {
         setData(items);
       });
   }, [selectedRadio]);
-  const [searchValue, setSearchValue] = useState("");
 
   return (
     <div>
@@ -26,6 +26,7 @@ const Appel = () => {
         {radios.map((gas) => (
           <li>
             <input
+              key={gas.idx}
               type="radio"
               id={gas}
               name="gasChoiceAward"
@@ -44,15 +45,16 @@ const Appel = () => {
       </div>
       <ul>
         {/* {data
-            .filter(
-              (item) =>
-                !searchValue ||
-                item.city.name.toLowerCase().includes(searchValue.toLowerCase())
-            )
+          .filter(
+            (item) =>
+              !searchValue ||
+              item.city.name.toLowerCase().includes(searchValue.toLowerCase())
+          )
           .map(
-            (polution) => ( */}
-        {/* console.warn(polution), */}
-        {/* <Polute polution={polution} />) */}
+            (polution) => (
+              console.warn(polution), (<Polute polution={polution} />)
+            )
+          )} */}
       </ul>
     </div>
   );

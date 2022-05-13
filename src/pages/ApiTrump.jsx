@@ -1,9 +1,10 @@
 import HeaderT from "@components/HeaderT";
 import React from "react";
+import "./ApiTrump.css";
 
 const ApiTrump = () => {
   return (
-    <div>
+    <div className="Apitrump">
       <HeaderT />
     </div>
   );

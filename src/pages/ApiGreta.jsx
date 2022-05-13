@@ -1,9 +1,10 @@
 import React from "react";
 import HeaderG from "@components/HeaderG";
+import "./ApiGreta.css";
 
 const ApiGreta = () => {
   return (
-    <div>
+    <div className="ApiGreta">
       <HeaderG />
     </div>
   );

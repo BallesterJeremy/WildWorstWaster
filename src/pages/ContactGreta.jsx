@@ -1,12 +1,12 @@
-import HeaderG from "../components/HeaderG";
-import React from "react";
 import HeaderG from "@components/HeaderG";
+import React from "react";
+import "./ContactGreta.css";
 
 const ContactGreta = () => {
   return (
-    <div>
+    <div className="ContactGreta">
       <HeaderG />
-      <h1>contact G</h1>
+      <h1>Contacte la petite Greta</h1>
     </div>
   );
 };

@@ -4,6 +4,9 @@ const HeaderT = () => {
   return (
     <div>
       <ul>
+        <Link to="/">
+          <li>Acceuil</li>
+        </Link>
         <Link to="/HomeTrump">
           <li>
             <p>Home</p>

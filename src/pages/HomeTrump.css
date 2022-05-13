@@ -1,0 +1,51 @@
+.trump-title{
+    text-align: center;
+    margin-top: 2em;
+    text-shadow:#281c02  2.5px 2.5px 0,
+    #2b2805 5px 5px 0,
+    #211d05 6.5px 6.5px 0,
+#333 8.5px 8.5px 8px;color:#997c07;
+font-size: x-large;
+ 
+}
+html{
+    height: 100%;
+}
+
+.Homepara{    text-shadow:#281c02 0.5px 0.5px 0,
+    #2b2805 2px 2px 0,
+    #211d05 3px 3px 0,
+    #333 4px 4px 4px;color:#997c07;
+     list-style: none;
+    font-size: large;}
+     
+.pneu {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.Pneu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pneubutton{
+    border-radius: 8em;
+    background-color: #a6ff00;
+    margin-top: 8em;
+    
+}
+.Home-trump{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100;
+}
+.Hometrump{
+    box-sizing: border-box;
+       
+    background: linear-gradient(#cfad25,#a48727,#8a540d);
+        width: 100%;
+        height: 100%;
+    padding-bottom: 15rem;
+}
