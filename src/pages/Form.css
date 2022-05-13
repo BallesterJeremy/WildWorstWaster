@@ -1,0 +1,11 @@
+.contactT{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactG{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
