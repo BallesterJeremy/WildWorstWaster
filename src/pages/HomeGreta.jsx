@@ -1,5 +1,5 @@
 import React from "react";
-import Appel from "../componants/Appel";
+
 import HeaderG from "../components/HeaderG";
 
 const HomeGreta = () => {
@@ -11,7 +11,6 @@ const HomeGreta = () => {
           Choose the place where to live, if you want very green
         </h1>
         <button>LET'S GO</button>
-        <Appel />
       </div>
     </>
   );

@@ -1,11 +1,14 @@
 import HeaderT from "@components/HeaderT";
 import React from "react";
+import Appel from "../componants/Appel";
 
 const ApiTrump = () => {
   return (
     <div>
-      <h1>apitrump</h1>
       <HeaderT />
+      <div>
+        <Appel />
+      </div>
     </div>
   );
 };
