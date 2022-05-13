@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search({ searchValue, setSearchValue }) {
+function Search({ searchValue, setSearchValue, launchSearch }) {
   return (
     <div>
       <input
@@ -11,6 +11,14 @@ function Search({ searchValue, setSearchValue }) {
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
       />
+      <button
+        id="buy-button"
+        type="submit"
+        value={searchValue}
+        onClick={(e) => launchSearch(e)}
+      >
+        envoyer
+      </button>
     </div>
   );
 }
