@@ -1,24 +1,26 @@
-import pmk from "react-router-dom";
+import { Link } from "react-router-dom";
 import React from "react";
+import "./HeaderG.css";
 
 const HeaderG = () => {
   return (
-    <div>
-      <ul>
+    <div className="HeaderG">
+      /*
+      <img
+        className="headeralogo"
+        src="https://www.flaticon.com/fr/icones-gratuites/fleur"
+      ></img>
+      */
+      <ul classname="headerButton">
         <Link to="/HomeGreta">
-          <li>
-            <p>Home</p>
-          </li>
+          <li className="headeraG">Home</li>
         </Link>
+
         <Link to="/ApiGreta">
-          <li>
-            <p>Api</p>
-          </li>
+          <li className="headeraG">Api</li>
         </Link>
         <Link to="/ContactGreta">
-          <li>
-            <p>Contact</p>
-          </li>
+          <li className="headeraG">Contact</li>
         </Link>
       </ul>
     </div>
