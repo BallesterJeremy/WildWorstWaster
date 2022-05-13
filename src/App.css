@@ -11,3 +11,75 @@ nav a {
 nav a.active {
   text-decoration: underline;
 }
+
+.grid-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "name name name name"
+    "aqi aqi aqi aqi"
+    "co humidity no2 o3"
+    "so2 wind pm10 pm25"
+    "atmos atmos atmos atmos";
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.cityName {
+  font-size: 2rem;
+  grid-area: name;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cityAqi {
+  grid-area: aqi;
+}
+
+.co {
+  grid-area: co;
+}
+
+.humidity {
+  grid-area: humidity;
+}
+
+.no2 {
+  grid-area: no2;
+}
+
+.o3 {
+  grid-area: o3;
+}
+
+.pm10 {
+  grid-area: pm10;
+}
+
+.pm25 {
+  grid-area: pm25;
+}
+.so2 {
+  grid-area: so2;
+}
+
+.wind {
+  grid-area: wind;
+}
+.atmos {
+  grid-area: atmos;
+}
+
+#buy-button {
+  grid-area: button;
+  color: white;
+  background-color: #708090;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 1px;
+}
